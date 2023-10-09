@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Canvas>
+      <Canvas className='bg' style={innerHeight}>
         <Map />
       </Canvas>
 
